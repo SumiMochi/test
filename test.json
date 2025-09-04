@@ -28,7 +28,7 @@
   },
     {
     "Author": "Asteria Nocturna",
-    "Name": "Divination.AetheryteLinkInChat_test",
+    "Name": "Divination.AetheryteLinkInChat",
     "Punchline": "Quick teleport for mob hunts and treasure hunts!",
     "Description": "Display a teleport link to the nearest aetherite for the map link from the in-game chat. Type /alic to configure the plugin.",
     "Changelog": "b7d6f6e: Merge pull request #703 from a1hena/api13\n\nApi13\nc739f46: Update DivinationApi.cs\n5dd082c: Update DivinationApi.cs\n1a47467: Delete NetworkDataParser.cs\na1068ab: rollback import\n32dfd49: Delete INetworkInterceptor\nb4e1e98: disable InstanceIDViewer\nc02c5eb: Update ECommons\na6b32aa: Update DivinationApi.cs\ncedcb74: (wip) disable  ImGui.InputScalar\n444bdb6: Update build-Common.yml\n7488f24: ECommons.DalamudServices.Legacy.IGameNetwork\nda5db62: Merge branch 'api13' of https://github.com/a1hena/Divination into api13\n28525bd: move IChatGui\ndcbd7f4: Dalamud.Bindings.ImGui\n9d651dc: comment agent-\u003eIsFlagMarkerSet\nede7b24: comment agent-\u003eIsFlagMarkerSet\n13022cc: Dalamud.Bindings.ImGui\n51b6443: Replace Condition Gathering42 and Crafting40\nd1230a4: Dalamud.NET.Sdk 13.0.0\n0f48ecf: Update ECommons\n0a3b0a9: should use IFramework.Run to await callback\n2586174: remove Common publish step\nc08d05f: delete workflows\n43993c7: update GitVersion strategies\n7656484: maybe it should be awaited\n9ca32ad: System.Net.Http.Json 9.0.4\nab83a11: wrap TeleportToPaths with RunOnTick\n1024a06: wrap with IFramework.RunOnFrameworkThread\n5fb1d60: DalamudApiLevel 12",
@@ -38,7 +38,7 @@
     "CategoryTags": [
       "utility"
     ],
-    "InternalName": "AetheryteLinkInChat_Testing",
+    "InternalName": "AetheryteLinkInChat",
     "AssemblyVersion": "7.2.4.0",
     "TestingAssemblyVersion": "7.2.4.21",
     "RepoUrl": "https://github.com/SlashNephy/Divination",
@@ -46,8 +46,8 @@
     "DalamudApiLevel": 13,
     "DownloadCount": 23080,
     "LastUpdate": 1756916179,
-    "DownloadLinkInstall": "https://xiv.starry.blue/plugins/stable/AetheryteLinkInChat/download",
-    "DownloadLinkTesting": "https://xiv.starry.blue/plugins/testing/AetheryteLinkInChat/download",
+    "DownloadLinkInstall": "https://github.com/SumiMochi/test/releases/download/AetheryteUpdate/AetheryteLinkInChat.zip",
+    "DownloadLinkTesting": "https://github.com/SumiMochi/test/releases/download/AetheryteUpdate/AetheryteLinkInChat.zip",
     "AcceptsFeedback": true
   }
 ]
